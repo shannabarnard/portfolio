@@ -1,0 +1,135 @@
+/*---- Table of contents
+1. Reset
+2. Universal Styles
+3. ...
+
+---- */
+
+/* ----- This is the Reset ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--- Universal Styles ---*/
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2%;
+  color: cornflowerblue;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+section, footer {
+  padding: 10vh 10vw;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.featured {
+  background-color: #505055;
+}
+
+.centered {
+  text-align: center;
+}
+
+.white-box {
+  background-color: white;
+  padding: 5%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/*--- Links ---*/
+a {
+  color: inherit; /* this means that the links will inherit color from their parents just like other elements */
+  font-weight: bold;
+  text-decoration: none;
+ }
+
+ a:hover {
+  color: #0FA0CE; /* add your color here */
+}
+
+
+/*--- Header ---*/
+.top-banner {
+  min-height: 100vh;
+  background-image: url(../giphy.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.top-banner h1 {
+  font-family: 'Freckle Face', cursive;
+  font-size: 6rem;
+  margin-top: 5%;
+}
+
+.top-banner h2 {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 4rem;
+}
+
+.top-banner h3 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+/*--- About ---*/
+
+
+/*--- Skills ---*/
+.skills {
+  text-align: center;
+}
+
+.skills .fa {
+  margin-top: 10%;
+}
+
+.skills h3 {
+  margin: 5% 0;
+}
+
+/*--- Experiance ---*/
+.experience .fa {
+  font-size: 3rem;
+  float: left;
+  margin: 0 5% 5% 0;
+}
+
+/*--- Map ---*/
+
+
+/*--- Footer ---*/
+footer {
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width:400px)
